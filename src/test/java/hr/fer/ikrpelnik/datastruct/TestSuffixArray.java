@@ -10,7 +10,7 @@ public class TestSuffixArray {
 
 	public static void main(String[] args) {
 		SuffixArray sa = new SuffixArray("banana");
-		for(int i = 0; i < 6; ++i) {
+		for(int i = 0; i <= 6; ++i) {
 			System.out.println(sa.getSuffix(i));
 		}
 	}
